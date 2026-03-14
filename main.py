@@ -89,7 +89,7 @@ maps = [
     ]
 ]
 
-env = gymnasium.make("sneaky_enemies", render_mode="human", predefined_map_list=None, activate_game_status=True)
+env = gymnasium.make("just_go", render_mode="human", predefined_map_list=None, activate_game_status=True)
 num_episodes = 5
 
 for i in range(num_episodes):
